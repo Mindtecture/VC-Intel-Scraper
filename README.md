@@ -44,3 +44,26 @@ python main.py
 - This project is not affiliated with Y Combinator
 - Do not use this for high-frequency scraping or commercial purposes
 - Website structure may change at any time
+
+## Local LLM (Ollama) Support
+
+This project also supports running the analysis using a **local LLM via Ollama**, avoiding external APIs.
+
+### mainollama.py
+- Uses a locally running Ollama server
+- Tested with `qwen3:4b`
+- Uses the OpenAI-compatible API interface exposed by Ollama
+
+
+- Ollama installed and running
+- Model pulled locally, for example:
+
+  ```bash
+  ollama pull qwen3:4b
+  ```
+
+ ### Run with Ollama
+
+``` bash
+python mainollama.py
+```
