@@ -1,0 +1,10 @@
+[project]
+name = "vc-intel-scraper"
+version = "0.1.0"
+dependencies = [
+  "playwright",
+  "beautifulsoup4",
+  "lxml",
+  "python-dotenv",
+  "openai"
+]
